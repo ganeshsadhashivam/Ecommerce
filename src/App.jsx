@@ -18,6 +18,7 @@ import {
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
+import AboutPage from "./pages/AboutPage";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -27,7 +28,7 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<SingleProduct />} />
