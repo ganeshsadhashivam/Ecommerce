@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import CartButtons from "./CartButtons";
 import styled from "styled-components";
-import { links } from "../utils/Constants";
+import { links } from "../utils/Constant";
 import { useProductsContext } from "../context/ProductsContext";
 
 const Navbar = () => {

@@ -18,7 +18,7 @@ export const links = [
   },
 ];
 
-export const services = [
+export const servicesAvailable = [
   {
     id: 1,
     icon: <GiCompass />,
