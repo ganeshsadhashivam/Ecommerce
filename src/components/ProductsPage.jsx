@@ -1,17 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Filters, ProductList, Sort, PageHero } from "../components";
-// import React from "react";
-// import styled from "styled-components";
-// import { formatPrice } from "../utils/helpers";
-// import { FaSearch } from "react-icons/fa";
-// import { Link } from "react-router-dom";
-// import PageHero from "../components/PageHero";
-// import Filters from "../components/Filters";
-// import Sort from "../components/Sort";
-// import ProductList from "../components/ProductList";
 
-const Products = () => {
+const ProductsPage = () => {
   return (
     <main>
       <PageHero title="products" />
@@ -28,7 +19,7 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsPage;
 
 const Wrapper = styled.div`
   .products {

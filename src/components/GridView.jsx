@@ -2,8 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import Product from "./Product";
 
-const GridView = () => {
-  return <div>GridView</div>;
+const GridView = ({ products }) => {
+  console.log(products);
+  return (
+    <Wrapper>
+      <div className="products-container">
+        {products.map((product) => {
+          return <Product key={product.id} {...product} />;
+        })}
+      </div>
+    </Wrapper>
+  );
 };
 
 export default GridView;
